@@ -38,6 +38,6 @@ describe('jwt strategy', () => {
     };
 
     const expected = await jwtStrategy.validate(payload);
-    expect(expected).toStrictEqual(responseValidated)
+    expect(expected).toStrictEqual(responseValidated);
   });
 });
